@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.cart {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+    box-shadow: 0px 0px 35px rgb(6, 16, 32), 
+        9px 20px 15px rgba(7, 20, 44, 0.384),
+        8px 20px 15px rgba(7, 20, 44, 0.384),
+        -8px 20px 15px rgba(7, 20, 44, 0.384), 
+        -9px 20px 15px rgba(7, 20, 44, 0.384);
+}
+
+.background-img {
+    background-image: url(./images/image-equilibrium.jpg);
+    background-size: 280px;
+    height:280px;
+    border-radius: 3%;
+}
+
+.eye {
+    background-color: hsla(178, 100%, 50%, 0.551);
+    height: 280px;
+    border-radius: 3%;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-img:hover .eye{
+    background-color: hsla(178, 100%, 50%, 0.551);
+    height: 280px;
+    border-radius: 3%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-info {
+    padding-top: 12px;
+}
+
+.center {
+    display: flex;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    
+}
+
+.txt {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 25px;
+    margin: 2px 0;
+    
+}
+
+span {
+    color: hsl(215, 51%, 70%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.time {
+    padding-left: 99px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    display: flex;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+
+.creator-avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.eth-logo {
+    padding: 18px 5px;
+    width: 10px;
+    height: 15px;
+}
+
+.time-icon {
+    padding: 18px 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.profile-pic {
+    padding-top: 15px;
+}
+
+.creator {
+    font-weight: 300;
+    display: flex;
+}
+
+.name {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h1:hover {
+    font-size: 22px;
+    color: hsl(178, 100%, 50%);
+    transition: all .5s ease;
+    cursor: pointer;
+}
