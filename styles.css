@@ -71,7 +71,7 @@ body {
 }
 
 span {
-    color: hsl(215, 51%, 70%);
+    color: hsl(0, 0%, 100%);
 }
 
 span:hover {
@@ -118,6 +118,7 @@ span:hover {
 .creator {
     font-weight: 300;
     display: flex;
+    color: hsl(215, 51%, 70%)
 }
 
 .name {
